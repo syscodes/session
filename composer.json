@@ -1,0 +1,30 @@
+{
+	"name": "syscodes/session",
+	"description": "The Syscodes Session package.",
+	"keywords": ["lenevor","session"],
+	"license": "BSD-3-Clause",
+	"homepage": "https://lenevor.com",
+	"support": {
+		"issues": "https://github.com/lenevor/syscodes/issues",
+        "source": "https://github.com/lenevor/syscodes"
+	},
+	"authors": [
+		{
+			"name": "Alexander Campo",
+			"email": "jalexcam@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.3",
+		"syscodes/contracts": "^0.7.2",
+		"syscodes/filesystem": "^0.7.2",
+		"syscodes/support": "^0.7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Syscodes\\Session\\": ""
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
