@@ -16,13 +16,13 @@
 	],
 	"require": {
 		"php": "^7.4|^8.0",
-		"syscodes/contracts": "^0.7.7",
-		"syscodes/filesystem": "^0.7.7",
-		"syscodes/support": "^0.7.7"
+		"syscodes/contracts": "^0.7.8",
+		"syscodes/filesystem": "^0.7.8",
+		"syscodes/support": "^0.7.8"
 	},
 	"autoload": {
 		"psr-4": {
-			"Syscodes\\Session\\": ""
+			"Syscodes\\Components\\Session\\": ""
 		}
 	},
 	"minimum-stability": "dev",
