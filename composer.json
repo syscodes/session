@@ -16,9 +16,9 @@
 	],
 	"require": {
 		"php": "^8.2",
-		"syscodes/contracts": "^0.8.16",
-		"syscodes/filesystem": "^0.8.16",
-		"syscodes/support": "^0.8.16",
+		"syscodes/contracts": "^0.9.0",
+		"syscodes/filesystem": "^0.9.0",
+		"syscodes/support": "^0.9.0",
 		"symfony/http-foundation": "^7.2.0"
 	},
 	"autoload": {
