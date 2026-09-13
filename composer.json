@@ -15,17 +15,29 @@
 		}
 	],
 	"require": {
-		"php": "^8.2",
+		"php": "^8.3",
+		"ext-ctype": "*",
+		"ext-session": "*",
+		"symfony/http-foundation": "^7.2.0",
 		"syscodes/contracts": "^0.9.0",
+		"syscodes/database": "^0.9.0",
+		"syscodes/encryption": "^0.9.0",
 		"syscodes/filesystem": "^0.9.0",
-		"syscodes/support": "^0.9.0",
-		"symfony/http-foundation": "^7.2.0"
+		"syscodes/finder": "^0.9.0",
+		"syscodes/support": "^0.9.0"
 	},
 	"autoload": {
 		"psr-4": {
 			"Syscodes\\Components\\Session\\": ""
 		}
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.9.x-dev"
+        }
+    },
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev"
 }
