@@ -286,15 +286,15 @@ class Store implements Session
      * @return void
      */
     public function save()
-    {
-        $this->ageFlashData();
-
-        $this->getErrorBagToSerialization();
-
+    {        
+        $this->getErrorBagToSerialization();        
+        
         $this->handler->write($this->getId(), $this->prepareForStorage(
             $this->serialization === 'json' ? json_encode($this->items) : serialize($this->items)
-        ));
-
+        ));            
+        
+        $this->ageFlashData();
+            
         $this->started = false;
     }
     
@@ -815,7 +815,6 @@ class Store implements Session
     {
         return $this->handler instanceof CookieSessionHandler;
     }
-
 
     /**
      * Set the request on the handler instance.

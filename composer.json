@@ -19,12 +19,12 @@
 		"ext-ctype": "*",
 		"ext-session": "*",
 		"symfony/http-foundation": "^7.4.0 || ^8.0.0",
-		"syscodes/contracts": "^0.9.1",
-		"syscodes/database": "^0.9.1",
-		"syscodes/encryption": "^0.9.1",
-		"syscodes/filesystem": "^0.9.1",
-		"syscodes/finder": "^0.9.1",
-		"syscodes/support": "^0.9.1"
+		"syscodes/contracts": "^0.9.2",
+		"syscodes/database": "^0.9.2",
+		"syscodes/encryption": "^0.9.2",
+		"syscodes/filesystem": "^0.9.2",
+		"syscodes/finder": "^0.9.2",
+		"syscodes/support": "^0.9.2"
 	},
 	"autoload": {
 		"psr-4": {
